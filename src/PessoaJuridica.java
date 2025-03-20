@@ -29,6 +29,6 @@ public class PessoaJuridica extends Pessoa{
     }
 
     public String getSobrenome() {
-        return "";
+        return " Peres";
     }
 }

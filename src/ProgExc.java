@@ -11,7 +11,7 @@ public class ProgExc {
         pessoa.setEstado("São Paulo ");
         pessoa.setEmprego("Repositor de mercado ");
         pessoa.setSalario(1900d );
-        System.out.println(pessoa.getNome() + pessoa.getSobrenome("Lucas"));
+        System.out.println(pessoa.getNome() + pessoa.getSobrenome());
         System.out.println("CPF " + pessoa.getCpf() + " RG" + pessoa.getRg());
         System.out.println("Mora em " + pessoa.getEstado());
         System.out.println("Atua na área de trabalho como " + pessoa.getEmprego() + "Recebe um valor de " + pessoa.getSalario());
@@ -32,4 +32,6 @@ public class ProgExc {
 
 
     }
+
+
 }
